@@ -17,7 +17,7 @@
     },
     "autoload": {
         "classmap": [
-            "src/models"
+            "src/Whynot/Dashboard"
         ],
         "psr-0": {
             "Whynot\\Dashboard": "src/"
