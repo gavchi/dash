@@ -1,6 +1,6 @@
 {
     "name": "whynot/dashboard",
-    "version": "v0.1.0-dev",
+    "version": "0.1.0",
     "description": "Customizeable dashboard for statistical data of yours sites",
     "keywords": ["google", "analytics", "laravel", "laravel4", "dashboard", "statistic"],
     "license": "MIT",
@@ -25,7 +25,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1-dev"
+            "dev-master": "0.1"
         }
     },
     "minimum-stability": "dev"
