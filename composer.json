@@ -1,0 +1,32 @@
+{
+    "name": "whynot/dashboard",
+    "version": "v0.1.0-dev",
+    "description": "Customizeable dashboard for statistical data of yours sites",
+    "keywords": ["google", "analytics", "laravel", "laravel4", "dashboard", "statistic"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WhyNot",
+            "email": "sasha.g@w-not.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "google/apiclient": "1.0.*@beta"
+    },
+    "autoload": {
+        "classmap": [
+            "src/models"
+        ],
+        "psr-0": {
+            "Whynot\\Dashboard": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
