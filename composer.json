@@ -13,7 +13,7 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "4.2.*",
-        "google/apiclient": "1.0.*@beta"
+        "google/apiclient": "1.*"
     },
     "autoload": {
         "classmap": [
@@ -28,5 +28,5 @@
             "dev-master": "v1.0"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
